@@ -1,0 +1,42 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "openaichatbot_identitypool_c30f330f",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "openaic30f330f",
+    "userPoolName": "openaichatbot_userpool_c30f330f",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "openaic30f330f_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "authSelections": "identityPoolAndUserPool",
+    "resourceName": "openaichatbot",
+    "sharedId": "c30f330f",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}  

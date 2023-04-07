@@ -12,5 +12,14 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "openai": "^3.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiqiao-yin/WYN-Ask.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yiqiao-yin/WYN-Ask/issues"
+  },
+  "homepage": "https://github.com/yiqiao-yin/WYN-Ask#readme"
 }
